@@ -21,7 +21,7 @@ class Numpad extends React.Component {
         <li className="numpad__button">2</li>
         <li className="numpad__button">3</li>
         <li className="numpad__button">+</li>
-        <li className="numpad__button">0</li>
+        <li className="numpad__button numpad__button--button0">0</li>
         <li className="numpad__button">.</li>
         <li className="numpad__button">=</li>
       </div>
