@@ -1,5 +1,15 @@
 .display {
-	width: 600px;
+	width: 100%;
 	height: 250px;
 	background-color: #333131;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	border-bottom: 3px solid var(--color-gray-light);
+
+	&__output {
+		font-size: 10rem;
+		margin-right: 2rem;
+		color: var(--color-gray-light);
+	}
 }
