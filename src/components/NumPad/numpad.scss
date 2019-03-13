@@ -1,0 +1,8 @@
+.numpad {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+	&__button {
+		text-align: center;
+	}
+}

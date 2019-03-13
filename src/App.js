@@ -5,6 +5,14 @@ import Numpad from './components/NumPad/Numpad';
 import numpadButtons from './numpad-buttons';
 
 class App extends Component {
+  state = {
+    numpadButtons: []
+  };
+
+  loadButtons = () => {
+    this.setState({ numpadButtons });
+  };
+
   render() {
     return (
       <div className="calculator">
