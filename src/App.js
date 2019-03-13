@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Display from './components/display/Display';
 
 class App extends Component {
   render() {
-    return <div className="App" />;
+    return <Display />;
   }
 }
 
