@@ -1,7 +1,7 @@
 const buttons = [
   'C',
   '+/-',
-  '<--',
+  '\u2190', //left arrow in JS octal
   '/',
   '7',
   '8',

@@ -1,9 +1,12 @@
 .calculator {
 	width: 60rem;
 	background-color: #333131;
+	box-shadow: 0 5px 13px #000;
 
 	&__numpad {
 		background-color: #333131;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
 	}
 }
 
